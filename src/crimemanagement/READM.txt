@@ -1,0 +1,117 @@
+QUESTION 4
+The Crime Management System is a Java application that has been developed  to record and manage crime related information efficiently. It integrates with a MySQL database to store officer and case records securely. The system allows users to add, view, and update records for both officers and cases while maintaining referential integrity between the two tables. This project demonstrates practical database connectivity using JDBC, user input handling through Java, and the implementation of fundamental CRUD operations in a structured and well documented way.
+
+README FILE. 
+Crime Management System
+Overview
+The Crime Management System is a Java and MySQL application that helps users record, manage, and track crime related information.
+ It allows users to add, view, and update both officer and case records using a secure database connection.
+Features
+Add, view, and update officer records
+
+
+Add, view, and update case records
+
+
+Automatic linking between cases and officers using OfficerID
+
+
+Ability to enter officer names when creating new cases
+
+
+User-friendly console interface
+
+
+Proper database connection and error handling
+
+
+Installation and Setup
+Open MySQL Workbench.
+
+
+Create a new schema named crimemanagement (or use your own name, but update it in DBConnection.java).
+
+
+Create the following tables:
+
+
+Officer Table
+Case Table
+Open the project in NetBeans.
+
+
+Open DBConnection.java and confirm your database credentials:
+
+ private static final String URL = "jdbc:mysql://localhost:3306/crimemanagement";
+private static final String USER = "root";
+private static final String PASSWORD = "Shantel82@";
+
+
+Run the program from the CrimeManagement.java file.
+
+
+Usage
+When you run the program:
+Choose an option from the main menu:
+
+
+Add Officer
+
+
+View Officers
+
+
+Update Officer
+
+
+Add Case
+
+
+View Cases
+
+
+Update Case
+
+
+Exit
+
+
+Follow the console prompts to enter data.
+
+
+The program will automatically save and update data in MySQL.
+
+
+Dependencies
+Java JDK 17 or higher
+
+
+MySQL Database
+
+
+MySQL Connector/J (JDBC Driver)
+
+
+NetBeans IDE (recommended for development)
+
+
+Example Output
+Crime Management System
+1. Add Officer
+2. View Officers
+3. Update Officer
+4. Add Case
+5. View Cases
+6. Update Case
+7. Exit
+Developer Notes
+Data integrity is maintained between tables using foreign key constraints.
+
+
+Officer names can be entered directly when adding new cases; the program automatically links or creates the officer if needed.
+
+
+Proper exception handling is implemented for database errors.
+
+QUESTION 5
+I cant attach a screenshot here. I tried and i have put it on the pdf. Thank you

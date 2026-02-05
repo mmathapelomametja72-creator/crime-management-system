@@ -1,0 +1,13 @@
+# Database Configuration Template
+# Copy this file to 'config.properties' and update with your actual credentials
+# NEVER commit config.properties to version control
+
+# Database connection URL
+# Format: jdbc:mysql://hostname:port/database_name
+db.url=jdbc:mysql://localhost:3306/crime_management
+
+# Database username
+db.user=root
+
+# Database password
+db.password=your_password_here
